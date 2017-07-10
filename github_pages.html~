@@ -14,34 +14,15 @@
 </header>
 
 <section>
-<h2>1.make the repository</h2>
-<p>Create new --->>  New repository</p>
-</section>
-
-<section>
-<h2>2.Repository name</h2>
-<p>Repository name is (        )</p>
-</section>
-
-<section>
-<h2>3.copy and paste on terminal</h2>
-<p>two section copy and paste</p>
+<h1>1.リポジトリの作成</h1>
+<p>ここではリポジトリの作成について、、、</p>
 </section>
 
 
 <section>
-<h2>4.make the HTML file.</h2>
-<p>$ echo "Hello Github pages" >> index.html</p>
+<h1>2.rrrr</h1>
+<p>リポジ成について、、、</p>
 </section>
-
-<section>
-<h2>5.on terminal</h2>
-<p>$ git add .<br>
-   $ git commit -m "commit"<br>
-   $ git push origin master:gh-pages<br></p>
-</section>
-
-
 
  
 <footer>
