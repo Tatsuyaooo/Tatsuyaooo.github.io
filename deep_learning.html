@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ja">
+ 
+<head>
+<meta charset="UTF-8">
+<title>MY WEB SITE｜MATLAB</title>
+<meta name="keywords" content="キーワード,複数ある場合はカンマで区切る,5〜6個程度が望ましい" />
+<meta name="description" content="ディスクリプションはサイトの概要です。60文字から124文字以内に納めましょう。" />
+</head>
+ 
+<body>
+<header>
+<h1>MATLAB</h1>
+<nav>
+<ul>
+<li><a href="deep_learning.html">deep learning</a></li>
+<li><a href="about.html">11</a></li>
+<li><a href="skill.html">22</a></li>
+</ul>
+</nav>
+</header>
+ 
+<section>
+<h2>11 code deep learning</h2>
+<p>% Copyright 2016 The MathWorks, Inc.<br>
+
+clear<br>
+
+camera = webcam; % Connect to the camera<br>
+nnet = alexnet;  % Load the neural net<br>
+
+while true   
+    picture = camera.snapshot;              % Take a picture <br>    
+    picture = imresize(picture,[227,227]);  % Resize the picture<br>
+
+    label = classify(nnet, picture);        % Classify the picture <br>
+       
+    image(picture);     % Show the picture<br>
+    title(char(label)); % Show the label<br>
+    drawnow;   <br>
+end</p>
+</section>
+
+
+
+
+<footer>
+<p>Copyright © CREATE RECORD. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
