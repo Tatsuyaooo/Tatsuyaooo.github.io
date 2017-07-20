@@ -109,3 +109,23 @@ section {
     -ms-transform: rotate(15deg);
 }
 
+
+.h01{
+position: relative;
+padding: 0.25em 1em;
+border: solid 2px black;
+border-radius: 3px 0 3px 0;
+}
+
+.h01:before,.h01:after
+{
+content: '';
+position: absolute;
+width:10px;
+height: 10px;
+border: solid 2px black;
+border-radius: 50%;
+}
+
+.h01:after {top:-12px;left:-12px;}
+.h01:before {bottom:-12px;right:-12px;}
