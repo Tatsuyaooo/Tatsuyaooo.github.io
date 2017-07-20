@@ -1,4 +1,4 @@
-h1 {
+ .title{
   padding: .5em .75em;
   background-color: #f6f6f6;
   border-bottom: 1px solid #ccc;
@@ -9,12 +9,12 @@ body {
 section {
   counter-increment: titleNum;
 }
-h1 {
+.num{
   position: relative;
   padding: 0 0 .5em 2em;
   border-bottom: 1px solid #ccc;
 }
-h1::before {
+.num::before {
   position: absolute;
   top: 0;
   left: 0;
