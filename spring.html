@@ -18,8 +18,7 @@ p.example { font-weight: bold; }
 </head>
  <br><br><br>
 <body>
-<header id="Header">
- <div class="inner">
+
 <h1 class="h09">Spring Framework</h1>
 <nav>
 <ul>
@@ -27,31 +26,11 @@ p.example { font-weight: bold; }
 
 </ul>
 </nav>
-</div>
 </header>
 
 
 
 
-
-
-
-<nav>
-    <ul id="Navi" class="clearfix"><!-- ここにclearfix ※floatさせる要素の直の親要素に付ける -->
-      <li>ナビ01</li><!-- liを全部 float leftで横並びに -->
-      <li>ナビ02</li>
-      <li>ナビ03</li>
-      <li>ナビ04</li>
-      <li>ナビ05</li>
-    </ul>
-  </nav>
-
-<div id="Contents" class="clearfix"><!-- ここにclearfix ※floatさせる要素の直の親要素に付ける -->
- <div id="Header">ヘッダーとか</div>
-
-    <div id="Main"><!-- float leftさせる -->
-    
-  
 
 <article>
 <h2 class="h03">1 SpringFramework</h2>
@@ -83,21 +62,10 @@ spring-batch: バッチ処理<br>
 <h2 class="h03">3.SpringTooe</h2>
 
 </article>
-</div>
 
 
 
 
-
-<div id="Side">サイド</div>
-
-
-
- </div>
-
- <div id="Footer">フッターとか</div>
-
-</div>
 
 <footer>
 <p>Copyright © CREATE RECORD. All Rights Reserved.</p>
@@ -105,53 +73,5 @@ spring-batch: バッチ処理<br>
 </body>
 </html>
 
-
- <style>
-* {
-  margin:0;
-  padding:0;
-}
-#Contents {
-  width: 700px;
-  margin:20px auto 0;
-  background:#CCCCCC;
-}
-#Header {
-  height:40px;
-  background:#FCAAAB;
-}
-#Main {
-  float:left;
-  width:500px;
-  height:300px;
-
-  background:#333DFF;
-}
-#Side {
-  float:left;
-  width:200px;
-
-  height:300px;
-  background:#27C42A;
-  box-shadow:5px 5px 2px rgba(0,0,0,0.3);
-}
-#Footer {
-  clear:left;
-  height:200px;
-  background:#FFF242;
-
-}
-.clearfix:after {
-    content: "";
-    display: block;
-    height: 0;
-    visibility: hidden;
-    clear: both;
-}
-.clearfix {display: inline-table;}/* Hides from IE-mac \*/
-* html .clearfix {height: 1%;}
-.clearfix {display: block;}
-/* End hide from IE-mac */
-</style>
 
 
