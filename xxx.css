@@ -132,3 +132,27 @@ border-radius: 50%;
 
 
 
+#b1234 {
+border-top:5px solid #222;
+width:640px;
+background:#fff;
+position:relative;
+margin:auto;
+}
+#b1 {
+position:relative;
+}
+#b2 {
+float:left;
+width:180px;
+}
+#b3 {
+float:right;
+width:440px; }
+#b4 {
+clear:both;
+width:640px;
+}
+p#a2 {
+margin:0 0 10px 10px;
+}
