@@ -133,7 +133,7 @@ border-radius: 50%;
 
 
 #site-box {
-          width : 1350px;
+          width : 1320px;
 }
 
 #a-box {    }
@@ -145,10 +145,10 @@ border-radius: 50%;
 
 #c-box {
           float: right;
-          width: 250px;
+          width: 220px;
 }
 
 #d-box {
           clear: both;
-          width: 1350px;
+          width: 1320px;
 }
