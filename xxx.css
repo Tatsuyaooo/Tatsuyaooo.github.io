@@ -133,19 +133,19 @@ border-radius: 50%;
 
 
 #site-box {
-          width : 1500px;
+          width : 1300px;
 }
 
 #a-box {    }
 
 #b-box {
           float: left;
-          width: 1300px;
+          width: 1000px;
 }
 
 #c-box {
           float: right;
-          width: 200px;
+          width: 300px;
 }
 
 #d-box {
