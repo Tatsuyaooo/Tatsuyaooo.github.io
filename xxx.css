@@ -35,7 +35,7 @@ section {
 }
 /* 09.旗 */
 
-.heading09{
+.h09{
     position:relative;
     margin:0 20px 0 20px;
     padding:10px 15px;
@@ -43,7 +43,7 @@ section {
     color:#fff;
     background:#c33;
 }
-.heading09:before{
+.h09:before{
     content:"<";
     position:absolute;
     top:middle;
@@ -54,7 +54,7 @@ section {
     line-height:1.0;
     color:#c96;
 }
-.heading09:after{
+.h09:after{
     content:" ";
     position:absolute;
     top:-2px;
@@ -67,3 +67,45 @@ section {
     -moz-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
     transform: rotate(-2deg);
+}
+
+    .h03{
+    position: relative;
+    color: #111;
+    font-size: 1.143em;
+    font-weight: bold;
+    margin: 0 0 1.5em;
+    padding: 0.5em 0.5em 0.5em 1.7em;
+    border-bottom: 3px solid #B92A2C;
+}
+ 
+.h03:before{
+    content: "";
+    position: absolute;
+    background: #d48789;
+    top: 0;
+    left: 0.4em;
+    height: 12px;
+    width: 12px;
+    transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+}
+ 
+.h03:after{
+    content: "";
+    position: absolute;
+    background:#d26466;
+    top: 1.0em;
+    left: 0;
+    height: 8px;
+    width: 8px;
+    transform: rotate(15deg);
+    -moz-transform: rotate(15deg);
+    -webkit-transform: rotate(15deg);
+    -o-transform: rotate(15deg);
+    -ms-transform: rotate(15deg);
+}
+
