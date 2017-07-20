@@ -133,22 +133,22 @@ border-radius: 50%;
 
 
 #site-box {
-          width : 1000px;
+          width : 1500px;
 }
 
 #a-box {    }
 
 #b-box {
           float: left;
-          width: 850px;
+          width: 1300px;
 }
 
 #c-box {
           float: right;
-          width: 150px;
+          width: 200px;
 }
 
 #d-box {
           clear: both;
-          width: 1000px;
+          width: 1500px;
 }
