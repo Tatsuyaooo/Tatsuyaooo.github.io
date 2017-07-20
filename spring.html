@@ -47,6 +47,8 @@ p.example { font-weight: bold; }
   </nav>
 
 <div id="Contents" class="clearfix"><!-- ここにclearfix ※floatさせる要素の直の親要素に付ける -->
+ <div id="Header">ヘッダーとか</div>
+
     <div id="Main"><!-- float leftさせる -->
     
   
@@ -55,7 +57,6 @@ p.example { font-weight: bold; }
 <h2 class="h03">1 SpringFramework</h2>
  <p>      広義のSpringは、フルスタックフレームワークとも言える（微妙に足りない部分はあるのですが…）と思います。Springは、1つのフレームワークではなく、複数のコンポーネントの集合体です。その全体を「1つのフルスタックフレームワーク」だと捉える考え方です。<br>
 狭義のSpringは、IoCコンテナ（Inversion of Controlコンテナ）、またの名をDIコンテナ（Dependency Injectionコンテナ）のことを指します。本シリーズではDIコンテナで用語統一します。前述の通り、Springは多くのコンポーネントから成っています。つまり「様々なレイヤに対するフレームワークコンポーネント」を各種取り揃えています。これには例えば以下のようなものがあります。<br><br>
-<img src="xxx1.jpg" width="300" height="230">
 
 
 
@@ -94,6 +95,9 @@ spring-batch: バッチ処理<br>
 
  </div>
 
+ <div id="Footer">フッターとか</div>
+
+</div>
 
 <footer>
 <p>Copyright © CREATE RECORD. All Rights Reserved.</p>
@@ -102,82 +106,52 @@ spring-batch: バッチ処理<br>
 </html>
 
 
-
-<style>
-
+ <style>
+* {
+  margin:0;
+  padding:0;
+}
+#Contents {
+  width: 700px;
+  margin:20px auto 0;
+  background:#CCCCCC;
+}
 #Header {
-    width:100%; /* 横幅を100%に */
-/*    background:#FFE5E5;*/
-  }
-  #Header .inner {
-    width:700px;
-    min-height:30px;
-    margin:0 auto;
-    padding-top:30px;
-  /*  background:#FFC9CA;*/
-    text-align:center;
-  }
-  #Header .inner p {
-    padding-top:30px;
-    text-align:center;
-  }
-  nav {
-    width:100%; /* 横幅を100%に */
-/*    background:#E5DDFF;*/
-  }
- 
-  nav #Navi {
-    width:700px;
-    margin:0 auto;
-/*    background:#C4C9FF;*/
-  }
-  nav #Navi li {
-    float:left;
+  height:40px;
+  background:#FCAAAB;
+}
+#Main {
+  float:left;
+  width:500px;
+  height:300px;
 
-    width:20%; /* ナビは5つなので100÷5=20で計算 */
-    min-height:40px;
-    margin:0;
-    background:none;
-    box-sizing:border-box; /* border分足されるので、box-sizingでborderを含むwidthに変更 */
-    border:#E1EAFF solid;
-    border-width: 0 1px 0 1px;
-    list-style:none;
-  }
- 
-  #Contents {
-    width:700px;
-    margin:0 auto;
-    padding:10px;
-  /*  background:#D4D4D4;*/
-    box-sizing:border-box; /* 同じくpaddingを含むwidthへ変更 */
-  }
-  
-  #Contents #Main {
-    float:left; /* 左に寄せるよ */
-    width:480px;
-    min-height:400px;
-/*    background:#D5A4FF;*/
-    text-align:center;
-  }
-  
-  #Contents #Side {
-    float:left; /* 左に寄せて#Mainの横に並べるよ */
-    width:190px;
-    min-height:400px;
-    margin-left:10px;
-    /*background:#FDFFBF;*/
-    text-align:center;
-  }
- 
-    background:#DAFFDA;
-  }
-  #Footer .inner {
-    width:700px;
-    min-height:80px;
-    margin:0 auto;
-/*    background:#7BF469;*/
-    text-align:center;
-  }
+  background:#333DFF;
+}
+#Side {
+  float:left;
+  width:200px;
+
+  height:300px;
+  background:#27C42A;
+  box-shadow:5px 5px 2px rgba(0,0,0,0.3);
+}
+#Footer {
+  clear:left;
+  height:200px;
+  background:#FFF242;
+
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix {display: inline-table;}/* Hides from IE-mac \*/
+* html .clearfix {height: 1%;}
+.clearfix {display: block;}
+/* End hide from IE-mac */
 </style>
 
 
