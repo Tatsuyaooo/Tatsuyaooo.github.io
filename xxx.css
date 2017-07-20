@@ -130,15 +130,17 @@ border-radius: 50%;
 .h01:after {top:-12px;left:-12px;}
 .h01:before {bottom:-12px;right:-12px;}
 
+
+
 #site-box {
-          width : 750px;
+          width : 1000px;
 }
 
 #a-box {    }
 
 #b-box {
           float: left;
-          width: 600px;
+          width: 850px;
 }
 
 #c-box {
@@ -148,5 +150,5 @@ border-radius: 50%;
 
 #d-box {
           clear: both;
-          width: 750px;
+          width: 1000px;
 }
