@@ -130,29 +130,23 @@ border-radius: 50%;
 .h01:after {top:-12px;left:-12px;}
 .h01:before {bottom:-12px;right:-12px;}
 
+#site-box {
+          width : 750px;
+}
 
+#a-box {    }
 
-#b1234 {
-border-top:5px solid #222;
-width:640px;
-background:#fff;
-position:relative;
-margin:auto;
+#b-box {
+          float: left;
+          width: 500px;
 }
-#b1 {
-position:relative;
+
+#c-box {
+          float: right;
+          width: 250px;
 }
-#b2 {
-float:left;
-width:180px;
-}
-#b3 {
-float:right;
-width:440px; }
-#b4 {
-clear:both;
-width:640px;
-}
-p#a2 {
-margin:0 0 10px 10px;
+
+#d-box {
+          clear: both;
+          width: 750px;
 }
