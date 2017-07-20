@@ -6,3 +6,28 @@ h1 {
 h1 {
  text-align: center; 
 }
+body {
+  counter-reset: titleNum;
+}
+section {
+  counter-increment: titleNum;
+}
+h1 {
+  position: relative;
+  padding: 0 0 .5em 2em;
+  border-bottom: 1px solid #ccc;
+}
+h1::before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: counter(titleNum);
+  width: 28px;
+  height: 28px;
+  line-height: 28px;
+  background-color: #ccc;
+  border-radius: 100%;
+  color: #fff;
+  font-size: .9em;
+  text-align: center;
+}
