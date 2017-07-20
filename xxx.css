@@ -28,3 +28,18 @@ section {
   font-size: .9em;
   text-align: center;
 }
+
+.t_soft {
+  padding: .6em 1em;
+  background: #fff;
+  background: -webkit-linear-gradient(top, #eee 0%, #ccc 100%);
+  background: linear-gradient(to bottom, #eee 0%, #ccc 100%);
+  border-top: 1px solid #888;
+  border-right: 10px solid #aaa;
+  border-bottom: 1px solid #888;
+  border-left: 30px double #aaa;
+  border-radius: 7px;
+  color: #f00;
+  font-weight: 600;
+  font-size: 1.25em;
+}
