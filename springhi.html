@@ -49,6 +49,8 @@
 
 <h2 class="h03">2.STSの起動方法 ビューについて</h2>
 <p>
+Select a workspace<br>
+起動時にワークスペースの保存場所を尋ねられる。通常はデフォルトのままでok<br>
 
 </p>
 
@@ -72,6 +74,24 @@
 ・ pom.xml
 
 
+</p>
+
+<h2 class="h03">5.ploxyの設定</h2>
+<p>
+<pre>
+<settings>
+  <proxies>
+    <proxy>
+      <active>true</active>
+      <protocol>プロトコル</protocol>
+      <host>ホスト名</host>
+      <port>ポート番号</port>
+      <username>ユーザー名</username>
+      <password>パスワード</password>
+      <nonProxyHosts>ある時は設定</nonProxyHosts>
+    </proxy>
+  </proxies>
+</settings>
 </p>
 
 </article>
