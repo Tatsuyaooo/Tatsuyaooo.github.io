@@ -205,3 +205,30 @@ border-right-color: transparent;
 -ms-transform: translateX(-50%);
 transform: translateX(-50%);
 }
+
+
+.a11 {
+  position: relative;
+  padding: .5em .75em;
+  background-color: #f6f6f6;
+}
+.a11::before,
+.a11::after {
+  position: absolute;
+  bottom: 8px;
+  z-index: -1;
+  content: '';
+  width: 30%;
+  height: 50%;
+  box-shadow: 0 10px 15px rgba(0, 0, 0, .2);
+}
+.a11::before {
+  -webkit-transform: rotate(-3deg);
+  transform: rotate(-3deg);
+  left: .3em;
+}
+.a11::after {
+  -webkit-transform: rotate(3deg);
+  transform: rotate(3deg);
+  right: .3em;
+}
