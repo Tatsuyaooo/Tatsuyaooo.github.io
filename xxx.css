@@ -272,3 +272,9 @@ transform: translateX(-50%);
   border: 10px solid transparent;
   border-bottom-color: #f0f0f0;
 }
+
+.line1 {
+  padding: .25em 0 .5em .75em;
+  border-left: 6px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
