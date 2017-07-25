@@ -303,6 +303,12 @@ transform: translateY(-50%);
 }
 
 
+.list-main-nav00{
+  width:100%;
+}
+.list-nav00 li{
+  width:14.28%; //ナビの幅100% ÷ ナビの数 7
+}
 
 .list-nav00{
   width:980px;
