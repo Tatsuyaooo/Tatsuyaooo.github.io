@@ -278,3 +278,26 @@ transform: translateX(-50%);
   border-left: 6px solid #ccc;
   border-bottom: 1px solid #ccc;
 }
+
+
+.line2 {
+position: relative;
+background: #f1f8ff;
+padding: 0.25em 0.5em;
+border-left: solid 2em #5c9ee7;
+}
+
+.line2:before {
+font-family: FontAwesome;
+content: "\f040";
+position: absolute;
+padding: 0em;
+color: white;
+font-weight: normal;
+left: -1.35em;
+top: 50%;
+-moz-transform: translateY(-50%);
+-webkit-transform: translateY(-50%);
+-ms-transform: translateY(-50%);
+transform: translateY(-50%);
+}
