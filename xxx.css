@@ -306,9 +306,6 @@ transform: translateY(-50%);
 .list-main-nav00{
   width:100%;
 }
-.list-nav00 li{
-  width:14.28%; //ナビの幅100% ÷ ナビの数 7
-}
 
 .list-nav00{
   width:980px;
@@ -328,6 +325,10 @@ transform: translateY(-50%);
   color:#fff;
   border-right:1px solid red;
 }
+.list-nav00 li{
+  float:left;
+  width:14.28% //ナビの幅980px ÷ ナビの数 7
+  }
 .list-nav00 li:first-child a{
   border-left:1px solid red;
 }
